@@ -16,7 +16,8 @@ public class arrayPractice {
     // to the method and paramaters, but it is separate!
     // This is NOT correct for (int Changes = 0; Changes < nums.length; Changes++){
     for (int i = 0; i < nums.length; i++) {
-      Changes(x += 15);
+    // This was also incorrect  Changes(x += 15);
+    nums[i] += 15;
     }
 
   }
