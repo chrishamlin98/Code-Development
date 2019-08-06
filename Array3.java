@@ -12,7 +12,8 @@ public static void main(String[] args) {
       //now I'm pausing at this point
       //I keep trying to put x for the change and I need to put
       //the i, since it is pointing to the new array
-      change[i] += 10;
+      //Also, it is x[i], not change[i]
+      x[i] += 10;
   }
 
 
