@@ -1,12 +1,14 @@
 public static void main(String [] args) {
-  int array [] = {1,2,3,4,5};
-  changes(array);
+  int data [] = {1,2,3,4,5};
+  changes(data);
 
-  for (int y: array)
+  for (int y: data)
   System.out.println(y);
+}
 
-public static void changes(int pointer[]){
-  for (int i = 0; i < pointer.length; i++)
-    i[pointer] += 12;
+public static void changes(int input[]){
+  for (int pointer = 0; pointer < input.length; pointer++)
+  //1 mistake - it's not pointer[input], but rather input[pointer].
+    input[pointer] += 12;
 }
 }
